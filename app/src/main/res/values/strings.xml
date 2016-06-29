@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GameManeger</string>
+    <string name="agreetext">我已阅读并接受<a href="gameass://">注册协议</a></string>
+</resources>

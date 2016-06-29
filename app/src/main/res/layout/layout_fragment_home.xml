@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:background="#8ddd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="72G游戏助手"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/iv_about"
+            style="@style/top_icon" />
+
+    </RelativeLayout>
+
+    <com.qf.gamemaneger.common.widget.MarqueeTextView
+        android:text="持续跑马灯dadf df               dsafasdfdsf                sdafsdafsa      asdfasdf "
+        android:padding="6dp"
+        android:background="#C9C9C9"
+        android:maxLines="1"
+        android:scrollHorizontally="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
